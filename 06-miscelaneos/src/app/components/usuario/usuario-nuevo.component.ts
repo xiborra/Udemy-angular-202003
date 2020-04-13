@@ -15,7 +15,7 @@ export class UsuarioNuevoComponent implements OnInit {
 
   constructor(private activatedRoute: ActivatedRoute) {
     this.activatedRoute.parent.params.subscribe ( parametros => {
-      console.log("Ruta hijs");
+      console.log('Ruta hija');
       console.log(parametros);
     });
    }
